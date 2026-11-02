@@ -107,8 +107,3 @@ Siti tidak ikut daftar karena sudah dijaga trigger.
 
 ![Cek konsistensi](BUKTI/14_cek_konsistensi_0_baris.png)
 
-## Kesimpulan
-Denormalisasi membuat pembacaan lebih sederhana karena tidak perlu JOIN dan agregasi,
-tetapi menambah redundansi sehingga data harus dijaga tetap sinkron. Trigger yang
-dipakai baru menangani INSERT. Untuk perubahan dan penghapusan detail pesanan
-diperlukan trigger tersendiri.
